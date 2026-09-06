@@ -542,6 +542,9 @@ local function Compiler(tokens)
         end
     end
     function self:statement(in_function)
+	if in_function then
+	    do end
+	end
         local t = self:peek()
         if t.value == "export" then
             self:take()
@@ -574,7 +577,7 @@ local function Compiler(tokens)
                 self:skip_newlines()
             end
             self:take("}")
-            local suffix = kind == "impl" and "_impl" or "_mt"
+            --local suffix = kind == "impl" and "_impl" or "_mt"
             self.struct_defs[name] = self.struct_defs[name] or {}
             if not self.struct_defs[name].seen then
                 self.struct_defs[name].seen = true

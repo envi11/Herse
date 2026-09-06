@@ -49,5 +49,4 @@ A bunch of code exaples with comments are available in ./code, check them out!
  - Herse is one of Jupiter's moons
  - This language was originally called Charon before I found out that name was taken
  - The first working version of this transpiler was made in under 5 hours (all the features it had are used in ./code/main.hrs)
- - This is my first ever transpiler/compiler
  - I don't have any more fun facts
