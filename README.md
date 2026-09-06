@@ -9,7 +9,7 @@ Herse is a lightweight and expressive programming language that compiles to read
  - Macros
 
 ## Warning
-All of the stuff here is still WIP, so if something doesn't work, please make an Issue or a PR.
+This is not a finished nor serious project, and was mostly just made out of boredom. This has a chance to become a serious project in the future, but that is still unlikely.
 
 ## Requirements
 - Lua 5.1 or later
