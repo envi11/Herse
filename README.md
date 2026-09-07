@@ -1,6 +1,6 @@
 # Herse
 
-Herse is a lightweight and expressive programming language that compiles to readable Lua.
+Herse is a lightweight programming language that compiles to Lua.
 
 ## Features that make it different from Lua
  - Static typing capabilities
